@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css"/>
+    <title>Página Inicial</title>
+</head>
+<body>
+    <main>
+        <h2>Por gentileza, digite seu email e senha.</h2>
+        <div id="formContainer">
+            <div id="forms">
+                <form id="loginForm">
+                    <input type="email" id="email" placeholder="E-mail">
+                    <span id="emailError" class="error"></span>
+                    <input type="password" id="password" placeholder="Senha">
+                    <span id="passwordError" class="error"></span>
+                    <input type="submit" value="Realizar Login">
+                    <span id="formMessage" class="message"></span>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
